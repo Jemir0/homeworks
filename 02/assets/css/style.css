@@ -1,0 +1,34 @@
+body {
+    width: 700px;
+    margin: auto;
+    padding: 50px;
+}
+.image {
+    width: 30px;
+}
+.code-block {
+    background-color: white;
+    margin-left: 5px;
+    margin-bottom: 7px;
+    padding-left: 8px;
+    border-left: 3px solid green;
+}
+.pre-code-block {
+    background-color: rgb(170, 173, 175);
+    padding-bottom: 5px;
+}
+.pre-code-block2 {
+    background-color: rgb(170, 173, 175);
+    padding-bottom: 5px;
+    margin: 20px;
+}
+.code {
+    color: brown;
+}
+.code2 {
+    color: blue;
+}
+iframe {
+    width: 700px;
+    height: 500px;
+}

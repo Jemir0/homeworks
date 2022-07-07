@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 2</title>
+    <link href="./assets/css/style.css" rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>HTML5 Семантичні елементи</h1>
+    <div>
+        <p>
+            Семантичний елемент чітко описує його значення як для браузера, так і
+            для розробника.
+        </p>
+        <p>
+            Приклади не <strong>семантичних</strong> елементів: &ltdiv&gt і &ltspan&gt- нічого не говорить
+            про його вміст.
+        </p>
+        <p>
+            Приклади <strong>семантичних</strong> елементів: &ltform&gt, &lttable&gt і &ltarticle&gt - чітко
+            визначає його зміст.
+        </p>
+    </div>
+    <h2>Підтримка браузерів</h2>
+    <div>
+        <img class="image" src="./assets/img/img1.jpg" alt="">
+        <img class="image" src="./assets/img/img2.jpg" alt="">
+        <img class="image" src="./assets/img/img3.jpg" alt="">
+        <img class="image" src="./assets/img/img4.jpg" alt="">
+        <img class="image" src="./assets/img/img5.jpg" alt="">
+    </div>
+    <div>
+        <p>
+            Семантичні елементи HTML5 підтримуються у всіх сучасних браузерах.
+        </p>
+        <p>
+            Крім того, ви можете "навчити" старих браузерів, як обробляти "невідомі
+            елементи".
+        </p>
+        <p>
+            Прочитайте про це в <a href="https://www.blogger.com/blog/page/edit/2590532390801722394/850003172824707311#" target="_blank">підтримці браузера HTML5</a> .
+        </p>
+    </div>
+    <h2>Нові семантичні елементи в HTML5</h2>
+    <div>
+        <p>
+            HTML5 пропонує нові семантичні елементи для визначення різних частин
+            веб-сторінки:
+        </p>
+        <ul>
+            <li>&ltsection&gt</li>
+            <li>&ltarticle&gt</li>
+            <li>&ltheader&gt</li>
+            <li>&ltfooter&gt</li>
+        </ul>
+    </div>
+    <h2>HTML5 &ltsection&gt елемент</h2>
+    <div>
+        <p>
+            Елемент &ltsection&gt визначає розділ в документі.
+        </p>
+        <p>
+            Згідно з документацією в3к'с HTML5: "розділ представляє собою
+            тематичну угруповання контенту, зазвичай з заголовком".
+        </p>
+        <p>
+            Домашня сторінка зазвичай може бути розділена на розділи для
+            ознайомлення, змісту і контактної інформації.
+        </p>
+        <div class="pre-code-block">
+            <p>
+                Приклад
+            </p>
+            <div class="code-block">
+                <span>&lt<span class="code">article</span>&gt</span><br>
+                <span>&lt<span class="code">h1</span>&gtWWF&lt<span class="code">/h1</span>&gt</span><br>
+                <span>&lt<span class="code">p</span>&gtThe World Wide Fund for Nature (WWF) is....&lt<span class="code">/p</span>&gt</span><br>
+                <span>&lt<span class="code">/article</span>&gt</span>
+            </div>
+        </div>
+    </div>
+    <h2>HTML5 &ltarticle&gt елемент</h2>
+    <div>
+        <p>
+            Елемент &ltarticle&gt визначає незалежний, автономний вміст.
+        </p>
+        <p>
+            Стаття повинна мати сенс самостійно, і вона повинна мати можливість
+читати його незалежно від іншої частини веб-сайту.
+        </p>
+        <p>
+            Приклади того, де можна використовувати елемент &ltarticle&gt:
+        </p>
+        <div>
+            <ul>
+                <li>Повідомлення на форумі</li>
+                <li>Блозі</li>
+                <li>Газетна стаття</li>
+            </ul>
+            <div class="pre-code-block2">
+                <p>
+                    Приклад
+                </p>
+                <div class="code-block">
+                    <span>&lt<span class="code">section</span>&gt</span><br>
+                    <span>&lt<span class="code">h1</span>&gtWhat Does WWF Do?&lt<span class="code">/h1</span>&gt</span><br>
+                    <span>&lt<span class="code">p</span>&gtWWF's mission is to stop the degradation of our planet's natural environment, and build a future in which humans live in harmony with nature.&lt<span class="code">/p</span>&gt</span><br>
+                    <span>&lt<span class="code">/section</span>&gt</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h2>HTML5 &ltheader&gt елемент</h2>
+    <div>
+        <p>
+            Елемент &ltheader&gt задає заголовок для документа або розділу.
+        </p>
+        <p>
+            Елемент &ltheader&gt повинен використовуватися в якості контейнера для
+            вступного змісту.                
+        </p>
+        <p>
+            В одному документі може бути кілька елементів &ltheader&gt.
+        </p>
+        <p>
+            У наступному прикладі визначається заголовок для статті:
+        </p>
+        <div class="pre-code-block2">
+            <p>
+                Приклад
+            </p>
+            <div class="code-block">
+                <span class="code">&ltarticle&gt</span><br>
+                <span class="code">&ltheader&gt</span><br>
+                <span>&lt<span class="code">h1</span>&gtWhat Does WWF Do?&lt<span class="code">/h1</span>&gt</span><br>
+                <span>&lt<span class="code">p</span>&gtWWF's mission:&lt<span class="code">/p</span>&gt</span><br>
+                <span>&lt<sapn class="code">/header</sapn>&gt</span><br>
+                <span>&lt<span class="code">p</span>&gtWWF's mission is to stop the degradation of our planet's natural environment, and build a future in which humans live in harmony with nature.&lt<span class="code">/p</span>&gt</span><br>
+                <span>&lt<span class="code">/article</span>&gt</span><br>
+            </div>
+        </div>
+    </div>
+    <h2>HTML5 &ltfooter&gt елемент</h2>
+    <div>
+        <p>
+            Елемент &ltfooter&gt вказує нижній колонтитул для документа або розділу.
+        </p>
+        <p>
+            Нижній колонтитул зазвичай містить автора документа, інформацію про
+            авторське право, посилання на умови використання, контактні дані і т.д.
+        </p>
+        <p>
+            В одному документі може бути кілька елементів &lsfooter&gt.
+        </p>
+        <div class="pre-code-block2">
+            <p>
+                Приклад
+            </p>
+            <div class="code-block">
+                <span>&lt<span class="code">footer</span>&gt</span><br>
+                <span>&lt<span class="code">p</span>&gtPosted by: Hege Refsnes&lt<span class="code">/p</span>&gt</span><br>
+                <span>&lt<span class="code">p</span>&gtContact information: &lt<span class="code">a href=<span class="code2">"mailto:someone@html5css.ru"</span>&gt</span><br>someone@html5css.ru&lt<span class="code">/a</span>&gt.&lt<span class="code">/p</span>&gt</span><br>
+                <span>&lt<span class="code">/footer</span>&gt</span>
+            </div>
+        </div>
+    </div>
+    <iframe src="../01/index.html" frameborder="0"></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/dEBVe8Ij7JU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </body>
+</html>
