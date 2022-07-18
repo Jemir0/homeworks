@@ -1,0 +1,147 @@
+html {
+    scroll-behavior: smooth;
+    width: 100%;
+}
+
+.body {
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Open-Sans', sans-serif;
+    font-size: 18px;
+}
+
+.hr {
+    width: 70%;
+}
+
+.photo {
+    width: 100%;
+}
+
+.navbar {
+    text-align: center;
+    display: block;
+    padding: 15px 0;
+}
+
+.navbar a {
+    padding: 0 15px;
+    color: grey;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    padding: 0 15px;
+    color: black;
+    text-decoration: none;
+}
+
+.container {
+    display: block;
+    width: 70%;
+    text-align: center;
+    padding: 45px 0;
+    margin: auto;
+}
+
+.container h1 {
+    text-align: left;
+}
+
+.small-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-bottom: 25px;
+}
+
+.skills {
+    display: block;
+    width: 100%;
+}
+
+.adobe {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.program {
+    display: inline-block;
+    width: 20%;
+    margin-top: 40px;
+    font-size: small;
+    color: gray;
+}
+
+.stars {
+    width: 10%;
+    margin-top: 20px;
+}
+
+.stores {
+    color: black;
+}
+
+.stores-image {
+    width: 75%;
+    margin-top: 25px;
+}
+
+.figma {
+    margin-bottom: 28px;
+}
+
+.button {
+    padding: 10px;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-radius: 45px;
+    letter-spacing: 0.1em;
+    transition: .5s;
+    border: 1px solid black;
+}
+
+.button:hover {
+    color: black;
+    background-color: #fff;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contacts-small-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+.background-container {
+    background-color: #F6F6F6;
+}
+
+.pre-social {
+    width: 40%;
+    margin: 40px auto;
+}
+
+.pre-end {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    color: #828282;
+}
+
+.end {
+    margin-bottom: 0;
+    display: inherit;
+    flex-direction: column;
+}
