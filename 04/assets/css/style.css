@@ -1,0 +1,267 @@
+html {
+    width: 100%;
+}
+
+body {
+    background-color: #e5e5e5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+}
+
+.container {
+    background-color: #ffffff;
+    width: 45%;
+    padding: 25px;
+}
+
+.label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input {
+    width: 100%;
+    padding: 5px;
+    border-radius: 6px;
+    border: 1px solid #E4E4E4;
+    outline: none;
+    transition: all .5s ease;
+}
+
+.input:focus {
+    border-color: #007BFF;
+}
+
+.flex-block {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.flex-block-two {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.small-block {
+    width: 45%;
+}
+
+.span {
+    color: #969696;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.radio-label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.radio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 25%;
+    margin-bottom: 20px;
+}
+
+.radio-input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.fake-radio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15px;
+    height: 15px;
+    border: 1px solid grey;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.radio-input:checked + .fake-radio::before {
+    content: '';
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    border: 5px solid #007BFF;
+}
+
+.select {
+    width: 100%;
+    padding: 5px;
+    border-radius: 6px;
+    border: 1px solid #E4E4E4;
+    outline: none;
+    transition: all .5s ease;
+    appearance: none;
+    cursor: pointer;
+}
+
+.select:focus {
+    border-color: #007BFF;
+}
+
+.arrow {
+    display: inline-block;
+    position: relative;
+    left: 255px;
+    bottom: 20px;
+}
+
+.button {
+    display: block;
+    padding: 5px;
+    border: 1px solid #E4E4E4;
+    border-radius: 6px;
+    width: 100%;
+    background-color: #007BFF;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+.paragraph {
+    text-align: center;
+    color: #969696;
+    font-size: 13px;
+}
+
+p span {
+    display: block;
+}
+
+p a {
+    text-decoration: none;
+}
+
+.log-in {
+    text-align: center;
+}
+
+.avatar-block {
+    display: flex;
+    flex-direction: row;
+    width: 55%;
+    margin-bottom: 20px;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+}
+
+.input-file {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.label-file {
+    width: 65%;
+    height: 15px;
+    border-radius: 6px;
+    padding: 5px;
+    border: 1px solid #E4E4E4;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+}
+
+.file-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 60%;
+    position: relative;
+}
+
+.reset {
+    width: 25px;
+    height: 25px;
+    border: 1px solid #E4E4E4;
+    border-radius: 6px;
+    display: inline-block;
+    position: relative;
+}
+
+.reset:active, .label-file:active {
+    border-color: #007BFF;
+}
+
+.icon-basket {
+    position: absolute;
+    right: 7px;
+    top: 6px;
+}
+
+.icon-camera {
+    position: absolute;
+    right: 6px;
+    top: 6px;
+}
+
+.file-block-text {
+    position: absolute;
+    color: #969696;
+    font-size: 13px;
+    top: 25px;
+    left: 10px
+}
+
+.second-button {
+    display: block;
+    padding: 5px;
+    border: 1px solid #E4E4E4;
+    border-radius: 6px;
+    width: 25%;
+    background-color: #007BFF;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}
+
+
+
+
+/*
+a {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 45px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    transition: .5s;
+    box-shadow: 0 8px 15px grey;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a:hover {
+    color: black;
+    background-color: rgb(32, 230, 108);
+    box-shadow: 0 15px 20px rgb(32, 230, 108);
+    transform: translateY(-7px);
+}
+*/

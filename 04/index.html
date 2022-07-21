@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Create an Account</h2>
+        <div class="flex-block">
+            <div class="small-block">
+                <label class="label" for="firstName">First Name</label>
+                <input class="input" type="text" name="firstName" id="firstName">
+            </div>
+            <div class="small-block">
+                <label class="label" for="lastName">Last Name</label>
+                <input class="input" type="text" name="lastName" id="lastName">
+            </div>
+        </div>
+        <label class="label" for="e-mail">E-mail</label>
+        <input class="input" type="text" name="e-mail" id="e-mail">
+        <span class="span">We'll never share your email with anyone else.</span>
+        <div class="radio">
+            <label class="radio-label">
+                <input class="radio-input" type="radio" name="beerSort" value="012lsR">
+                <span class="fake-radio"></span>
+                Male
+            </label>
+            <label class="radio-label">
+                <input class="radio-input" type="radio" name="beerSort" value="012lsR">
+                <span class="fake-radio"></span>
+                Female
+            </label>
+        </div>
+        <div class="flex-block-two">
+            <div class="small-block">
+                <label class="label" for="country">Country</label>
+                <select name="country" class="select">
+                    <option value="">Select</option>
+                    <option value="first">First Country</option>
+                    <option value="second">Second Country</option>
+                    <option value="third">Third Country</option>
+                    <option value="fourth">Fourth Country</option>
+                    <option value="fifth">Fifth Country</option>
+                </select>
+                <span class="arrow"><img src="./assets/image/arrows.png" alt=""></span>
+            </div>
+            <div class="small-block">
+                <label class="label" for="city">City</label>
+                <input class="input" type="text" name="city" id="city">
+            </div>
+        </div>
+        <a href="#" class="button">Sign Up</a>
+        <p class="paragraph">
+            <span>By clicking the 'Sign Up' button, you confirm that you accept our </span><a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>.
+        </p>
+        <p class="log-in">Have an account?   <a href="#">Log In</a></p>
+    </div>
+    <div class="container">
+        <h2>Profile</h2>
+        <div class="avatar-block">
+            <img src="./assets/image/image.png" alt="Avatar" class="avatar">
+            <div class="file-block">
+                <label class="label-file" for="avatar">
+                    <input class="input-file" type="file" name="avatar" id="avatar">
+                    <img class="icon-camera" src="./assets/image/camera.png" alt="">
+                </label>
+                <a class="reset" href="#"><img class="icon-basket" src="./assets/image/basket.png" alt=""></a>
+                <p class="file-block-text">Up to 1 MB (300x300 px)</p>
+            </div>
+        </div>
+        <div class="flex-block">
+            <div class="small-block">
+                <label class="label" for="Name">Name</label>
+                <input class="input" type="text" name="Name" id="Name">
+            </div>
+            <div class="small-block">
+                <label class="label" for="mail">E-mail</label>
+                <input class="input" type="text" name="mail" id="mail">
+            </div>
+        </div>
+        <div class="flex-block-two">
+            <div class="small-block">
+                <label class="label" for="second-country">Country</label>
+                <select name="second-country" class="select">
+                    <option value="">Select</option>
+                    <option value="first">First Country</option>
+                    <option value="second">Second Country</option>
+                    <option value="third">Third Country</option>
+                    <option value="fourth">Fourth Country</option>
+                    <option value="fifth">Fifth Country</option>
+                </select>
+                <span class="arrow"><img src="./assets/image/arrows.png" alt=""></span>
+            </div>
+            <div class="small-block">
+                <label class="label" for="second-city">City</label>
+                <input class="input" type="text" name="second-city" id="second-city">
+            </div>
+        </div>
+        <div class="flex-block">
+            <div class="small-block">
+                <label class="label" for="zip-code">Zip Code</label>
+                <input class="input" type="number" name="zip-code" id="zip-code">
+            </div>
+            <div class="small-block">
+                <label class="label" for="phone-number">Phone Number</label>
+                <input class="input" type="number" name="phone-number" id="phone-number">
+            </div>
+        </div>
+        <a class="second-button" href="#">Update</a>
+    </div>
+</body>
+</html>
