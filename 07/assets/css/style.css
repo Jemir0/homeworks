@@ -1,0 +1,110 @@
+html, body, p {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    font-family: Staatliches;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    font-size: 28px;
+    font-family: 'PT Sans';
+}
+
+body {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
+.lang {
+    font-family: Tourney;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.header_nav {
+    display: inline-block;
+    max-width: 260px;
+}
+
+.logo{
+    display: inline-block;
+    max-width: 240px;
+}
+
+.header_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+    padding-bottom: 55px;
+}
+
+.title {
+    font-family: 'Francois One';
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    font-weight: 400;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.flex_container {
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+}
+
+.nav {
+    display: flex;
+    column-gap: 10px;
+}
+
+sup {
+    font-family: Farro;
+    font-weight: 300;
+    font-size: 13px;
+    vertical-align: top;
+    text-transform: none;
+}
+
+.underlined {
+    text-decoration: underline;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.quotes::before {
+    content: '<';
+}
+
+.quotes::after {
+    content: '>';
+}
+
+.span_bg {
+    background-color: lightgrey;
+}
+
+.content {
+    padding-bottom: 40px;
+}
