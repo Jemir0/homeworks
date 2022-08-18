@@ -1,0 +1,207 @@
+@font-face {
+    font-family: 'Farro';
+    src: local('Farro Bold'), local('Farro-Bold'),
+        url('../fonts/Farro-Bold.woff2') format('woff2'),
+        url('../fonts/Farro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Francois One';
+    src: local('Francois One Regular'), local('FrancoisOne-Regular'),
+        url('../fonts/FrancoisOne-Regular.woff2') format('woff2'),
+        url('../fonts/FrancoisOne-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Farro';
+    src: local('Farro Light'), local('Farro-Light'),
+        url('../fonts/Farro-Light.woff2') format('woff2'),
+        url('../fonts/Farro-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Farro';
+    src: local('Farro Regular'), local('Farro-Regular'),
+        url('../fonts/Farro-Regular.woff2') format('woff2'),
+        url('../fonts/Farro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Farro';
+    src: local('Farro Medium'), local('Farro-Medium'),
+        url('../fonts/Farro-Medium.woff2') format('woff2'),
+        url('../fonts/Farro-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Farro';
+    src: local('Farro Regular'), local('Farro-Regular'),
+        url('../fonts/Farro-Regular.woff2') format('woff2'),
+        url('../fonts/Farro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Farro';
+    src: local('Farro Medium'), local('Farro-Medium'),
+        url('../fonts/Farro-Medium.woff2') format('woff2'),
+        url('../fonts/Farro-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Farro';
+    src: local('Farro Bold'), local('Farro-Bold'),
+        url('../fonts/Farro-Bold.woff2') format('woff2'),
+        url('../fonts/Farro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Farro';
+    src: local('Farro Light'), local('Farro-Light'),
+        url('../fonts/Farro-Light.woff2') format('woff2'),
+        url('../fonts/Farro-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PT Sans';
+    src: local('PT Sans Bold'), local('PTSans-Bold'),
+        url('../fonts/PTSans-Bold.woff2') format('woff2'),
+        url('../fonts/PTSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Francois One';
+    src: local('Francois One Regular'), local('FrancoisOne-Regular'),
+        url('../fonts/FrancoisOne-Regular.woff2') format('woff2'),
+        url('../fonts/FrancoisOne-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PT Sans';
+    src: local('PT Sans Bold'), local('PTSans-Bold'),
+        url('../fonts/PTSans-Bold.woff2') format('woff2'),
+        url('../fonts/PTSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PT Sans';
+    src: local('PT Sans Bold Italic'), local('PTSans-BoldItalic'),
+        url('../fonts/PTSans-BoldItalic.woff2') format('woff2'),
+        url('../fonts/PTSans-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Tourney';
+    src: local('Tourney Thin Italic'), local('Tourney-ThinItalic'),
+        url('../fonts/Tourney-ThinItalic.woff2') format('woff2'),
+        url('../fonts/Tourney-ThinItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Staatliches';
+    src: local('Staatliches Regular'), local('Staatliches-Regular'),
+        url('../fonts/Staatliches-Regular.woff2') format('woff2'),
+        url('../fonts/Staatliches-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Staatliches';
+    src: local('Staatliches Regular'), local('Staatliches-Regular'),
+        url('../fonts/Staatliches-Regular.woff2') format('woff2'),
+        url('../fonts/Staatliches-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tourney';
+    src: local('Tourney Thin'), local('Tourney-Thin'),
+        url('../fonts/Tourney-Thin.woff2') format('woff2'),
+        url('../fonts/Tourney-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PT Sans';
+    src: local('PT Sans'), local('PTSans-Regular'),
+        url('../fonts/PTSans-Regular.woff2') format('woff2'),
+        url('../fonts/PTSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PT Sans';
+    src: local('PT Sans Bold Italic'), local('PTSans-BoldItalic'),
+        url('../fonts/PTSans-BoldItalic.woff2') format('woff2'),
+        url('../fonts/PTSans-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'PT Sans';
+    src: local('PT Sans Italic'), local('PTSans-Italic'),
+        url('../fonts/PTSans-Italic.woff2') format('woff2'),
+        url('../fonts/PTSans-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'PT Sans';
+    src: local('PT Sans Italic'), local('PTSans-Italic'),
+        url('../fonts/PTSans-Italic.woff2') format('woff2'),
+        url('../fonts/PTSans-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Tourney';
+    src: local('Tourney Thin Italic'), local('Tourney-ThinItalic'),
+        url('../fonts/Tourney-ThinItalic.woff2') format('woff2'),
+        url('../fonts/Tourney-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Tourney';
+    src: local('Tourney Thin'), local('Tourney-Thin'),
+        url('../fonts/Tourney-Thin.woff2') format('woff2'),
+        url('../fonts/Tourney-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+

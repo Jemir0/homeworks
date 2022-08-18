@@ -7,9 +7,6 @@ ul {
     margin: 0;
     padding: 0;
     list-style: none;
-    display: flex;
-    flex-direction: row;
-    font-family: Staatliches;
 }
 
 a {
@@ -66,7 +63,11 @@ body {
     margin-bottom: 40px;
 }
 
-.flex_container {
+.side_bar_title .title {
+    margin: 0;
+}
+
+.flex_header {
     display: flex;
     align-items: center;
     column-gap: 50px;
@@ -75,6 +76,9 @@ body {
 .nav {
     display: flex;
     column-gap: 10px;
+    display: flex;
+    flex-direction: row;
+    font-family: Staatliches;
 }
 
 sup {
@@ -107,4 +111,23 @@ sup {
 
 .content {
     padding-bottom: 40px;
+}
+
+.side_bar {
+    display: inline-block;
+    flex-direction: column;
+    justify-content: start;
+    max-width: 365px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.side_bar_title {
+    display: inline-block;
+    width: 100%;
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
 }
