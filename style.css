@@ -1,0 +1,79 @@
+html, body, ul, h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.section {
+    width: 100%;
+    padding: 60px 0;
+    
+}
+
+.title {
+    display: block;
+    text-align: center;
+    padding-bottom: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    column-gap: 40px;
+    row-gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.html_list {
+    background-color: rgba(255, 213, 219, 0.507);
+}
+
+.html_list a {
+    background-color: orange;
+    border: 1px solid orange;
+}
+
+.js_list {
+    background-color: rgba(201, 240, 253, 0.712);
+}
+
+.js_list a {
+    background-color: blue;
+    border: 1px solid blue;
+}
+
+.vue_list {
+    background-color: rgb(210, 255, 210);
+}
+
+.list li {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 45px;
+    transition: all .5s ease;
+    font-family: 'Merriweather', serif;
+}
+
+.html_list a:hover {
+    color: orange;
+}
+
+.js_list a:hover {
+    color: blue;
+}
+
+a:hover {
+    background-color: #fff;
+    transform: scale(1.1);
+}
+
