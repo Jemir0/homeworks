@@ -108,7 +108,6 @@ img {
     background: #fff0;
     color: #2F281E;
     outline: 1px solid #BCD0E5;
-    transition: all 0.5s ease;
 }
 
 /* FIRST SECTION */
@@ -383,6 +382,7 @@ img {
     font-size: 16px;
     font-weight: 600;
     line-height: 20px;
+    transition: all 0.5s ease;
 }
 
 /* description */
@@ -523,6 +523,7 @@ img {
     border: none;
     border-radius: 6px;
     cursor: pointer;
+    transition: all .5s ease;
 }
 
 
@@ -533,7 +534,6 @@ img {
 
 .button_ftr:hover {
     color: #2F281E;
-    transition: all 0.5s ease;
 }
 
 /* /button_footer */
