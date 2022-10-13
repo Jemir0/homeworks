@@ -1,0 +1,137 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    padding: 0;
+    margin: 0;
+}
+
+.section {
+    border: 25px solid #2B81AC;
+    background-color: #3399CC;
+    max-width: 1440px;
+    margin: 0 auto;
+    color: #fff;
+    font-family: 'Lucida Sans Unicode';
+    box-sizing: border-box;
+}
+
+.title {
+    display: block;
+    font-weight: normal;
+    font-size: 21px;
+    padding: 40px 0 35px;
+}
+
+.title i {
+    font-size: 27px;
+}
+
+.content_wraper {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.cards {
+    font-size: 0;
+    min-width: 100%;
+    background-color: #fff;
+}
+
+.cards_item {
+    display: inline-block;
+    border: 2px solid #fff;
+    font-size: 22px;
+    text-align: center;
+    box-sizing: border-box;
+    transition: all .2s ease;
+}
+
+.city {
+    display: block;
+    padding-top: 25px;
+}
+
+.span_wrapper {
+    padding: 5px 0 25px;
+}
+
+.span_wrapper span {
+    vertical-align: super;
+    opacity: 0.7;
+}
+
+.span_wrapper i {
+    font-size: 42px;
+}
+
+.cards_item:nth-child(1) {
+    background-color: #3399CC;
+    width: 50%;
+}
+
+.cards_item:nth-child(2) {
+    background-color: #33CCCC;
+    width: 25%;    
+}
+
+.cards_item:nth-child(3) {
+    background-color: #996699;
+    width: 25%;    
+}
+
+.cards_item:nth-child(4) {
+    background-color: #C24747;
+    width: 25%;    
+}
+
+.cards_item:nth-child(5) {
+    background-color: #E2674A;
+    width: 25%;    
+}
+
+.cards_item:nth-child(6) {
+    background-color: #FFCC66;
+    width: 25%;    
+}
+
+.cards_item:nth-child(7) {
+    background-color: #99CC99;
+    width: 25%;    
+}
+
+.cards_item:nth-child(8) {
+    background-color: #669999;
+    width: 25%;    
+}
+
+.cards_item:nth-child(9) {
+    background-color: #CC6699;
+    width: 50%;    
+}
+
+.cards_item:nth-child(10) {
+    background-color: #339966;
+    width: 25%;    
+}
+
+.cards_item:nth-child(11) {
+    background-color: #666699;
+    width: 100%;    
+}
+
+.cards:hover .cards_item {
+    opacity: 0.7;
+}
+
+.cards .cards_item:hover {
+    opacity: 1;
+}
+
+.post_content {
+    padding: 35px 0 95px;
+    display: inline-block;
+    font-size: 16px;
+}
