@@ -51,6 +51,10 @@ html, body, ul, h2 {
     background-color: rgb(210, 255, 210);
 }
 
+.project_list {
+    background-color: mediumpurple;
+}
+
 .list li {
     list-style: none;
 }
