@@ -1,0 +1,62 @@
+* {
+    font-family: Lato, sans-serif;
+}
+
+.header {
+    &__wrapper {
+        &--btn {
+            font-size: 18px;
+            font-weight: 400;
+        }
+    }
+
+    &__nav {
+        &--btn {
+            font-size: 20px;
+            font-weight: 400;
+        }
+    }
+}
+
+.section {
+    &__content {
+        &--title {
+            font-size: 34px;
+            font-weight: 700;
+        }
+
+        &--paragraph {
+            font-weight: 300;
+            font-size: 16px;
+        }
+    }
+}
+
+.item {
+    &__name {
+        font-weight: 700;
+        font-size: 18px;
+
+        &--position {
+            font-weight: 300;
+            font-size: 18px;
+        }
+    }
+}
+
+.image {
+    &__wrapper {
+        &--socials {
+            font-size: 20px;
+        }
+    }
+}
+
+.footer {
+    &__nav {
+        &--btn {
+            font-size: 18px;
+            font-weight: 400;
+        }
+    }
+}
