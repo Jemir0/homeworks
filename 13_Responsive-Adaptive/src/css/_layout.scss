@@ -1,0 +1,24 @@
+body {
+    position: relative;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    max-width: 1440px;
+    padding: 40px 135px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+}
+
+section {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 135px;
+
+}

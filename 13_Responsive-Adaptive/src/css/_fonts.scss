@@ -1,0 +1,35 @@
+.list_item {
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.bg {
+    &_content {
+        font-family: 'Red Hat Display';
+        font-weight: 600;
+        font-size: 48px;
+    }
+}
+
+.blog {
+    &_title {
+        font-family: 'Red Hat Display';
+        font-weight: 400;
+        font-size: 48px;
+    }
+
+    &_content {
+        .prev, .date, .about {
+            font-family: Lato;
+            font-weight: 400;
+            font-size: 16px;
+        }
+
+        .content_title {
+            font-family: 'Red Hat Display';
+            font-weight: 500;
+            font-size: 23px;
+        }
+    }
+}
