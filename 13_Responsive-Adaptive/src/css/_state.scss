@@ -4,7 +4,39 @@
             transition: all .2s ease;
             
             &:hover {
-                transform: scale(1.1);
+                transform: scale(.9);
+            }
+        }
+    }
+}
+
+.blog {
+    .content_wrapper {
+        .blog_content {
+            .about {
+                a {
+                    &:hover {
+                        .arr {
+                            left: 90px;
+                            color: #000;
+                        }
+    
+                        .rm {
+                            opacity: 1;
+                            color: #000;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.latest {
+    &_title {
+        .va {
+            :hover {
+                padding: 50px;
             }
         }
     }

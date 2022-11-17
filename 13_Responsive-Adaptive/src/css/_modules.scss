@@ -1,3 +1,8 @@
+.logo {
+    max-width: 145px;
+    width: 100%;
+}
+
 .nav {
     display: flex;
     flex-direction: row;
@@ -64,7 +69,7 @@
     flex-wrap: nowrap;
     row-gap: 50px;
     justify-content: left;
-    margin-top: 90px;
+    margin: 90px 0;
 
     &_content {
         align-self: center;
@@ -88,12 +93,26 @@
         
         .about {
             color: #565665;
-            letter-spacing: 5%;
             letter-spacing: .05em;
             
             a {
-                text-decoration: none;
+                position: relative;
                 color: #565665;
+                
+                .arr {
+                    color: #565665;
+                    font-size: 20px;
+                    position: absolute;
+                    left: 0;
+                    display: inline-block;
+                    transform: translateY(-15%);
+                    transition: all .7s ease;
+                }
+
+                .rm {
+                    opacity: 0;
+                    transition: all 1s ease;
+                }
             }
         }
     }
@@ -119,5 +138,66 @@
 
     &_image {
         max-width: 570px;
+    }
+}
+
+.latest {
+    &_title {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+
+        .va {
+            color: #7b7b7b;
+            transition: all .3s ease;
+            text-decoration: none;
+            position: relative;
+            display: inline-block;
+
+            &::before {
+                content: '→';
+                font-size: 20px;
+                position: absolute;
+                display: inline-block;
+                right: -25px;
+                transform: translateY(-15%);
+                transition: all .3s ease;
+            }
+        }
+    }
+
+    &_posts {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        column-gap: 30px;
+
+        .content {
+            max-width: 370px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            row-gap: 20px;
+
+            &_image {
+                padding-bottom: 5px;
+
+                .info {
+                    padding-top: 25px;
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: nowrap;
+                    justify-content: space-between;
+                    color: #7b7b7b;
+                }
+            }
+
+            .about {
+                padding-bottom: 25px;
+                color: #565665;
+            }
+        }
     }
 }

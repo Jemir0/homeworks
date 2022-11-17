@@ -33,3 +33,48 @@
         }
     }
 }
+
+.latest {
+    &_title {
+        h3 {
+            font-family: 'Red Hat Display';
+            font-weight: 600;
+            letter-spacing: .1em;
+            font-size: 28px;
+        }
+
+        .va {
+            font-family: Lato;
+            font-weight: 400;
+            font-size: 14px;
+            letter-spacing: .1em;
+        }
+    }
+
+    &_posts {
+        .content {
+            &_image {
+                .prev, .date {
+                    font-family: Lato;
+                    font-weight: 400;
+                    font-size: 12px;
+                    letter-spacing: .1em;
+                }
+            }
+
+            &_title {
+                font-family: 'Red Hat Display';
+                font-weight: 500;
+                font-size: 22px;
+                letter-spacing: .1em;
+            }
+
+            .about {
+                font-family: Lato;
+                font-weight: 400;
+                font-size: 16px;
+                letter-spacing: .05em;
+            }
+        }
+    }
+}

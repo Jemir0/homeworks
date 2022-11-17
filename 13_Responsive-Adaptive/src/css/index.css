@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* red-hat-display-regular - latin */
 @font-face {
   font-family: "Red Hat Display";
@@ -66,6 +67,37 @@
   font-size: 23px;
 }
 
+.latest_title h3 {
+  font-family: "Red Hat Display";
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  font-size: 28px;
+}
+.latest_title .va {
+  font-family: Lato;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+}
+.latest_posts .content_image .prev, .latest_posts .content_image .date {
+  font-family: Lato;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+}
+.latest_posts .content_title {
+  font-family: "Red Hat Display";
+  font-weight: 500;
+  font-size: 22px;
+  letter-spacing: 0.1em;
+}
+.latest_posts .content .about {
+  font-family: Lato;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -90,6 +122,10 @@ h1, h2, h3, h4, h5 {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   position: relative;
   max-width: 1440px;
@@ -106,12 +142,18 @@ body {
   background-color: #fff;
   position: sticky;
   top: 0;
+  z-index: 1;
 }
 
 section {
   width: 100%;
   margin: 0 auto;
   padding: 0 135px;
+}
+
+.logo {
+  max-width: 145px;
+  width: 100%;
 }
 
 .nav {
@@ -173,7 +215,7 @@ section {
   flex-wrap: nowrap;
   row-gap: 50px;
   justify-content: left;
-  margin-top: 90px;
+  margin: 90px 0;
 }
 .blog_content {
   align-self: center;
@@ -194,12 +236,24 @@ section {
 }
 .blog_content .about {
   color: #565665;
-  letter-spacing: 5%;
   letter-spacing: 0.05em;
 }
 .blog_content .about a {
-  text-decoration: none;
+  position: relative;
   color: #565665;
+}
+.blog_content .about a .arr {
+  color: #565665;
+  font-size: 20px;
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  transform: translateY(-15%);
+  transition: all 0.7s ease;
+}
+.blog_content .about a .rm {
+  opacity: 0;
+  transition: all 1s ease;
 }
 .blog .content_title {
   padding-bottom: 15px;
@@ -220,9 +274,74 @@ section {
   max-width: 570px;
 }
 
+.latest_title {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.latest_title .va {
+  color: #7b7b7b;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+}
+.latest_title .va::before {
+  content: "→";
+  font-size: 20px;
+  position: absolute;
+  display: inline-block;
+  right: -25px;
+  transform: translateY(-15%);
+  transition: all 0.3s ease;
+}
+.latest_posts {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  column-gap: 30px;
+}
+.latest_posts .content {
+  max-width: 370px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.latest_posts .content_image {
+  padding-bottom: 5px;
+}
+.latest_posts .content_image .info {
+  padding-top: 25px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  color: #7b7b7b;
+}
+.latest_posts .content .about {
+  padding-bottom: 25px;
+  color: #565665;
+}
+
 .list_item a {
   transition: all 0.2s ease;
 }
 .list_item a:hover {
-  transform: scale(1.1);
+  transform: scale(0.9);
+}
+
+.blog .content_wrapper .blog_content .about a:hover .arr {
+  left: 90px;
+  color: #000;
+}
+.blog .content_wrapper .blog_content .about a:hover .rm {
+  opacity: 1;
+  color: #000;
+}
+
+.latest_title .va :hover {
+  padding: 50px;
 }
